@@ -1,3 +1,5 @@
+'use client'
+
 export default function CVPage() {
   return (
     <main style={{ maxWidth: '800px', margin: '0 auto', padding: '20px', fontFamily: 'Arial, sans-serif', backgroundColor: '#fff', color: '#333' }}>
@@ -6,6 +8,33 @@ export default function CVPage() {
         <p>Engineering Manager | Senior Backend Developer</p>
         <p style={{ marginTop: '10px' }}>📍 Jakarta, Indonesia | 📧 adityapfm99@gmail.com | 📱 +62 812-7899-9065</p>
         <p>🌐 <a href="https://github.com/Adityapfm99" style={{ color: '#1e90ff' }}>GitHub</a> | <a href="https://www.linkedin.com/in/aditya-nugraha-b5621b23/" style={{ color: '#1e90ff' }}>LinkedIn</a></p>
+        <a
+  
+  href="/CV-ADITYA.pdf"
+  download
+  title="Save as PDF"
+  style={{
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: '6px',
+    padding: '6px 12px',
+    backgroundColor: '#1e90ff',
+    color: '#fff',
+    borderRadius: '4px',
+    textDecoration: 'none',
+    fontWeight: 500,
+    fontSize: '14px',
+    cursor: 'pointer',
+    marginTop: '16px',
+    transition: 'background-color 0.2s ease'
+  }}
+  onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#0f7ae5' }}
+  onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#1e90ff' }}
+>
+  <img src="/pdf-svgrepo.svg" alt="PDF icon" style={{ width: 16, height: 16 }} />
+  Download CV as PDF
+</a>
+
       </header>
 
       <section style={{ marginBottom: '30px' }}>
@@ -20,7 +49,7 @@ export default function CVPage() {
         <ul>
           <li><strong>Languages/Frameworks:</strong> NodeJS (TypeScript), Python, Odoo, Next.js</li>
           <li><strong>Databases:</strong> PostgreSQL, MongoDB, Redis, Supabase</li>
-          <li><strong>Tools:</strong> Postman, Insomnia, Grafana, Prometheus, Slack</li>
+          <li><strong>Tools:</strong> Postman, Insomnia, Grafana, Prometheus, Slack, Docker</li>
           <li><strong>Analytics Tools:</strong> Looker Studio, Google Analytics 4 (GA4), Google Tag Manager</li>
           <li><strong>Version Control:</strong> GitHub, GitLab</li>
           <li><strong>Testing & Performance:</strong> JMeter, K6</li>
@@ -57,6 +86,17 @@ export default function CVPage() {
         </div>
 
         <div style={{ marginTop: '20px' }}>
+          <h3><strong>Appservation Co. Ltd – Engineering Manager</strong></h3>
+          <p><a href="https://web.hungryhub.com" style={{ color: '#1e90ff' }}>https://web.hungryhub.com</a></p>
+          <p>Oct 2022 – Jun 2024 | Jakarta / Remote</p>
+          <ul>
+            <li>Led a team of engineers to build and maintain a scalable restaurant reservation platform.</li>
+            <li>Improved backend performance by 35% through system refactoring and optimization.</li>
+            <li>Oversaw sprint planning, code reviews, and standardized DevOps practices.</li>
+            <li>Conducted regular 1-on-1 sessions with team members to support their development.</li>
+          </ul>
+        </div>
+        <div style={{ marginTop: '20px' }}>
           <h3><strong>PT SiCepat Ekspress Indonesia – Technical Lead</strong></h3>
           <p><a href="https://www.sicepat.com" style={{ color: '#1e90ff' }}>https://www.sicepat.com</a></p>
           <p>Jul 2018 – Present | Jakarta</p>
@@ -70,17 +110,7 @@ export default function CVPage() {
           </ul>
         </div>
 
-        <div style={{ marginTop: '20px' }}>
-          <h3><strong>Appservation Co. Ltd – Engineering Manager</strong></h3>
-          <p><a href="https://web.hungryhub.com" style={{ color: '#1e90ff' }}>https://web.hungryhub.com</a></p>
-          <p>Oct 2022 – Jun 2024 | Jakarta / Remote</p>
-          <ul>
-            <li>Led a team of engineers to build and maintain a scalable restaurant reservation platform.</li>
-            <li>Improved backend performance by 35% through system refactoring and optimization.</li>
-            <li>Oversaw sprint planning, code reviews, and standardized DevOps practices.</li>
-            <li>Conducted regular 1-on-1 sessions with team members to support their development.</li>
-          </ul>
-        </div>
+       
 
         <div style={{ marginTop: '20px' }}>
           <h3><strong>Infoconnect Sdn Bhd – Senior Software Developer</strong></h3>
