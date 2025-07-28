@@ -10,7 +10,7 @@ export default function CVPage() {
         <p>🌐 <a href="https://github.com/Adityapfm99" style={{ color: '#1e90ff' }}>GitHub</a> | <a href="https://www.linkedin.com/in/aditya-nugraha-b5621b23/" style={{ color: '#1e90ff' }}>LinkedIn</a></p>
         <a
   
-  href="/CV-ADITYA.pdf"
+  href="/CV-Aditya-2025.pdf"
   download
   title="Save as PDF"
   style={{
