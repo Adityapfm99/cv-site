@@ -62,9 +62,23 @@ export default function CVPage() {
         <h2 style={{ fontSize: '1.25rem', fontWeight: 'bold' }}>Professional Experience</h2>
 
         <div style={{ marginTop: '20px' }}>
+          <h3><strong>PT SiCepat Ekspress Indonesia – Technical Lead</strong></h3>
+          <p><a href="https://www.sicepat.com" style={{ color: '#1e90ff' }}>https://www.sicepat.com</a></p>
+          <p>Jul 2018 – Present | Jakarta</p>
+          <ul>
+            <li>Led development and customization of Odoo modules: Purchase, Invoice, Accounting, HR.</li>
+            <li>Designed and developed internal Billing & POD System, integrated with third-party services.</li>
+            <li>Built a scalable billing system using NodeJS (TypeScript), Redis, Bull Queue.</li>
+            <li>Integrated SAP journal systems; optimized slow queries for better performance.</li>
+            <li>Held strategic meetings with BOD; conducted regular 1-on-1s with team members.</li>
+            <li>Mentored junior developers and ensured code quality via regular reviews.</li>
+          </ul>
+        </div>
+
+        <div style={{ marginTop: '20px' }}>
           <h3><strong>GlobalDeal – Freelance Senior Backend Developer</strong></h3>
           <p><a href="https://www.globaldeal.io" style={{ color: '#1e90ff' }}>https://www.globaldeal.io</a></p>
-          <p>Jan 2025 – Present | Remote | Part-Time</p>
+          <p>Jan 2025 – Jul 2025 | Remote | Part-Time</p>
           <ul>
             <li>Developed and maintained backend systems for international expansion automation platforms.</li>
             <li>Led backend API development using Python and NodeJS (TypeScript) for scalable, high-performance systems.</li>
@@ -96,22 +110,7 @@ export default function CVPage() {
             <li>Conducted regular 1-on-1 sessions with team members to support their development.</li>
           </ul>
         </div>
-        <div style={{ marginTop: '20px' }}>
-          <h3><strong>PT SiCepat Ekspress Indonesia – Technical Lead</strong></h3>
-          <p><a href="https://www.sicepat.com" style={{ color: '#1e90ff' }}>https://www.sicepat.com</a></p>
-          <p>Jul 2018 – Present | Jakarta</p>
-          <ul>
-            <li>Led development and customization of Odoo modules: Purchase, Invoice, Accounting, HR.</li>
-            <li>Designed and developed internal Billing & POD System, integrated with third-party services.</li>
-            <li>Built a scalable billing system using NodeJS (TypeScript), Redis, Bull Queue.</li>
-            <li>Integrated SAP journal systems; optimized slow queries for better performance.</li>
-            <li>Held strategic meetings with BOD; conducted regular 1-on-1s with team members.</li>
-            <li>Mentored junior developers and ensured code quality via regular reviews.</li>
-          </ul>
-        </div>
-
-       
-
+      
         <div style={{ marginTop: '20px' }}>
           <h3><strong>Infoconnect Sdn Bhd – Senior Software Developer</strong></h3>
           <p><a href="https://www.infoconnect.com.my" style={{ color: '#1e90ff' }}>https://www.infoconnect.com.my</a></p>
