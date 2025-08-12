@@ -5,19 +5,34 @@ export default function CVPage() {
   return (
     <>
       <Head>
-        <title>Aditya Nugraha | Senior Backend Engineer & Engineering Manager</title>
+        <title>Aditya Nugraha | Senior Software Engineer & Engineering Manager</title>
         <meta name="description" content="CV & portfolio of Aditya Nugraha, Senior Backend Engineer and Engineering Manager. Open to remote and international opportunities." />
-        <meta property="og:title" content="Aditya Nugraha | Senior Backend Engineer & Engineering Manager" />
-        <meta property="og:description" content="CV & portfolio of Aditya Nugraha, Senior Backend Engineer and Engineering Manager. Open to remote and international opportunities." />
-        <meta property="og:image" content="/foto.jpg" />
+        <meta property="og:title" content="Aditya Nugraha | Senior Software Engineer & Engineering Manager" />
+        <meta property="og:description" content="CV & portfolio of Aditya Nugraha, Senior Software Engineer and Engineering Manager. Open to remote and international opportunities." />
+        <meta property="og:image" content="/image.png" />
         <meta property="og:type" content="website" />
       </Head>
       <main style={{ maxWidth: '800px', margin: '0 auto', padding: '20px', fontFamily: 'Arial, sans-serif', backgroundColor: '#fff', color: '#333' }}>
-        <header style={{ marginBottom: '30px' }}>
+        <header style={{ marginBottom: '30px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <img
+            src="/image.png"
+            alt="Aditya Nugraha"
+            style={{
+              width: 120,
+              height: 120,
+              objectFit: 'cover',
+              borderRadius: '50%',
+              marginBottom: '16px',
+              boxShadow: '0 2px 8px rgba(0,0,0,0.10)',
+              border: '2px solid #ffe9b3',
+              background: '#f8fafc',
+              display: 'block'
+            }}
+          />
     
           <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>Aditya Nugraha</h1>
           <p style={{ fontWeight: 600, color: '#1e90ff', marginBottom: '8px' }}>
-            Senior Backend Engineer | Engineering Manager | Open to Remote & International Roles
+            Senior Software Engineer | Engineering Manager | Open to Remote & International Roles
           </p>
           <span style={{
             display: 'inline-block',
@@ -72,6 +87,8 @@ export default function CVPage() {
           <img src="/typescript-svgrepo-com.svg" alt="Typescript" style={{ width: 32, height: 32 }} />
           <img src="/redis-logo-svgrepo-com.svg" alt="Redis" style={{ width: 32, height: 32 }} />
           <img src="/next-js-svgrepo-com.svg" alt="NextJs" style={{ width: 32, height: 32 }} />
+          <img src="/gitlab-svgrepo-com.svg" alt="Gitlab" style={{ width: 32, height: 32 }} />
+          <img src="/heroku-logo-svgrepo-com.svg" alt="Heroku" style={{ width: 32, height: 32 }} />
 
         </section>
 
@@ -209,9 +226,8 @@ export default function CVPage() {
         {/* Testimonials Section */}
         <section style={{ marginBottom: '30px' }}>
           <h2 style={{ fontSize: '1.25rem', fontWeight: 'bold' }}>Testimonials</h2>
-       
           <blockquote style={{ borderLeft: '4px solid #1e90ff', margin: '10px 0', paddingLeft: '12px', color: '#555', fontStyle: 'italic' }}>
-            "His remote collaboration skills and deep backend expertise made a significant impact on our international projects."
+            "Aditya's fullstack expertise in React and Python, combined with remote collaboration skills, made a significant impact on our international projects."
             <br />
             <span style={{ fontWeight: 500, color: '#1e90ff' }}>– Karen Onuma, Product Manager, GlobalDeal</span>
           </blockquote>
