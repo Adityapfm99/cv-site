@@ -12,9 +12,19 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteTitle = "Aditya Nugraha | Solution Lead, Engineering Manager & Fullstack Engineer";
+const siteDescription =
+  "CV & portfolio of Aditya Nugraha, Solution Lead, Engineering Manager and Fullstack Engineer based in Jakarta, Indonesia. 10+ years delivering scalable backend systems and AI-native financial solutions. Open to remote and international roles.";
+
 export const metadata: Metadata = {
-  title: "Aditya Nugraha | Engineering Manager & Senior Backend Develope",
-  description: "Experienced Engineering Manager and Senior Backend Developer based in Jakarta, Indonesia. Specializing in scalable backend systems, NodeJS, Python, and team leadership for impactful software delivery",
+  title: siteTitle,
+  description: siteDescription,
+  openGraph: {
+    title: siteTitle,
+    description: siteDescription,
+    images: ["/profile.jpg"],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
